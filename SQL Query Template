@@ -1,0 +1,49 @@
+//This template shows you how to do basic queries in SQL.
+
+//Query displays all columns for each record in the table.
+SELECT *
+FROM tableName
+
+//Query displays the selected columns for each record in the table.
+SELECT column 1, column 2, etc.
+FROM tableName
+
+//Query displays all columns for each record in the table that meets the following condition by using the WHERE clause.
+SELECT *
+FROM tableName
+WHERE some condition is true
+
+//Query is similar to the previous one, except it displays specific column(s).
+SELECT column 1, column 2, etc.
+FROM tableName
+WHERE some condition is true
+
+//Note:  The WHERE clause uses logical operators such as =, >, <, >=, <=, LIKE, NOT, AND, OR, etc.
+
+//Query checks available databases.
+SHOW DATABASES;
+
+//Query deletes all records from a database.
+DELETE FROM tableName;
+
+//Query deletes one or more records based on a given condition using the WHERE clause.
+DELETE FROM tableName
+WHERE some condition is true
+
+//Query drops a table from the database.
+DROP TABLE tableName;
+
+//Query orders the records (ascending order) in a specific column by using the ORDER BY clause.
+SELECT *
+FROM tableName
+ORDER BY column;
+
+//Query is similar to previous one, except it displays the records in descending order.
+SELECT *
+FROM tableName
+ORDER BY column DESC;
+
+
+
+
+      
