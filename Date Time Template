@@ -1,0 +1,5 @@
+import datetime
+
+currentTime = datetime.datetime.now()
+anotherTime = datetime.datetime(year, month, day, hour, minute, second, microsecond)
+timeDifference = abs(anotherTime - currentTime)
