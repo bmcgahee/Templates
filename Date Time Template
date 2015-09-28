@@ -1,5 +1,10 @@
+#Date Time Template
+#This template imports the datetime module, tells the current time, defines another time, and calculates the time difference 
+#between the two times.  
+
 import datetime
 
 currentTime = datetime.datetime.now()
 anotherTime = datetime.datetime(year, month, day, hour, minute, second, microsecond)
 timeDifference = abs(anotherTime - currentTime)
+
