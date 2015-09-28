@@ -1,0 +1,20 @@
+//This template helps you create a database, a table inside the database, and insert values into that table.
+
+//Create database named dBName
+CREATE DATABASE dBName
+
+//Use dBName
+USE dBName
+
+//Create Table named tableName with N number of columns and N number of data types
+CREATE TABLE tableName(column 1 data type 1, column 2 data type 2, column 3 data type 3, ..., column N data type N)
+
+//Insert values into tableName
+INSERT INTO tableName(column 1, column 2, column 3, ..., column N)
+VALUES('value 1A', 'value 2A', 'value 3A', ..., 'value NA'),
+      ('value 1B', 'value 2B', 'value 3B',..., 'value NB'),
+      ....,
+      ('value 1Z', 'value2Z', 'value 3Z',..., 'value NZ')
+
+//Note:  Only use single quotes for data types involving characters.  
+//Data types involving numbers don't use single quotes.
