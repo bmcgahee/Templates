@@ -1,0 +1,10 @@
+This template shows you how to include a file on your website for download. 
+
+Case 1: Without Image
+
+<a href="filename" target="_blank">Text For Download Link Goes Here</a>
+
+Case 2: With Image
+
+<a href="filenametodownload" target="_blank"><img src="imagefilename" alt="imagetitle" /></a>
+
