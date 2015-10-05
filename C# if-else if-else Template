@@ -1,0 +1,16 @@
+if(condition1 is true)
+{
+   //executable code goes here
+}
+else if(condition2 is true)
+{
+   //executable code goes here
+}
+else if(condition3 is true)
+{
+   //executable code goes here
+}
+else //will execute if none of the first three conditions are true
+{
+  //executable code goes here
+}
