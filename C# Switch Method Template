@@ -1,0 +1,21 @@
+public static void switchMethodName(type1 par1, type1 par2, type2 par3)
+{
+   type1 var1;
+ 
+   switch (par3)
+   {
+     case '1':
+       //code goes here
+       break;
+
+     case '2':
+       //code goes here
+       break;
+
+     case '3':
+       //code goes here
+       break;
+
+     //Add more cases if needed.
+   }
+}
