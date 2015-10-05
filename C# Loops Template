@@ -1,0 +1,29 @@
+WHILE LOOP:  This loop executes while the condition is true.
+
+while (condition is true) 
+{
+  //code goes here
+}
+
+DO WHILE LOOP: This loop executes at least once and may execute multiple times while the condition is true.
+
+do
+{
+   //code goes here
+}
+while (condition is true);
+
+FOR LOOP:  This loop executes repeatedly until a condition becomes false.  
+
+for(int var = starting value; var <= ending value; var++)
+{
+   //code goes here
+}
+
+FOR EACH LOOP:  This loop iterates through each of the elements within a collection. 
+
+foreach(Element Type element in collection)
+{
+     //code goes here
+}
+
