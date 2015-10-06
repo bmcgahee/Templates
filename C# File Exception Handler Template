@@ -1,0 +1,18 @@
+try 
+{
+  file = File.OpenText("filename.xxx") //open the file
+  Console.WriteLine(file.ReadToEnd()); //reads all lines in the file
+}
+catch(FileNotFoundException fileNotFound) 
+{
+  Console.WriteLine(fileNotFound.Message); //catches and displays the File Not Found Exception message
+}
+catch(Exception ex)
+{
+   Console.WriteLine(ex.Message);
+}
+finally
+{
+  if(file != null) //closes the file
+    file.Close();
+}
