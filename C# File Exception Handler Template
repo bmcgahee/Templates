@@ -11,8 +11,8 @@ catch(Exception ex)
 {
    Console.WriteLine(ex.Message);
 }
-finally
+finally //executes regardless of whether an exception has been thrown
 {
-  if(file != null) //closes the file
+  if(file != null) //closes the file 
     file.Close();
 }
