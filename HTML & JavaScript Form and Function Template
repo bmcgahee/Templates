@@ -1,0 +1,20 @@
+<form>
+  Label1 Name: <input type = "text" id = "ID Name"><br>
+  Label2 Name: <input type="text" id = "ID Name"><br>
+  <input type = "button" onClick = "function1()" Value = "Button1 Label" />
+  <input type = "button" onClick = "function2()" Value = "Button2 Label" />
+</form>
+
+<script type = "text/javascript">
+function function1() {
+
+//code goes here
+
+}
+
+function function2() {
+
+//code goes here
+
+}
+</script>
