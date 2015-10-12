@@ -1,0 +1,7 @@
+itemsList = []
+n = int(raw_input("How many items do you want in the list? "))
+for i in range(0, n):
+    item = raw_input("Enter item in list: ")
+    itemsList.append(item)
+print "Here are the items in the list."
+print itemsList
