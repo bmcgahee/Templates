@@ -1,0 +1,4 @@
+GridView.DataSource = from Table in dbContext.Column //Table is the name of the table in your database.
+                      where Table.Column == "value goes here" //Column is the name of the column within your table.
+                      select Table;
+GridView.DataBind();
