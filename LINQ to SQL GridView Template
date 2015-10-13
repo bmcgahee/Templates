@@ -1,4 +1,4 @@
 //When you have Name.dbml from LINQ to SQL, use the following template to bind data to the GridView.  
 NameDataContext dbContext = new NameDataContext();
-GridView.Datasource = dbContext.Table; //Table is the name of the datbase table you want to show on the website.
+GridView.DataSource = dbContext.Table; //Table is the name of the datbase table you want to show on the website.
 GridView.DataBind();
