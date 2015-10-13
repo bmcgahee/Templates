@@ -1,0 +1,15 @@
+//This template lets you insert a new record into a database table using LINQ to SQL in C#.NET
+using(NameDataContext dbContext = new NameDataContext())
+{
+   Table objectName = new Table //Creates instance of the Table class.
+   {
+   //Note that numerical values do not use quotes.
+     Column1 = "value1 goes here";
+     Column2 = "value2 goes here";
+     Column3 = "value3 goes here";
+     //etc...
+   };
+   
+   dbContext.Table.InsertOnSubmit(objectName);
+   dbContext.SubmitChanges();
+}
