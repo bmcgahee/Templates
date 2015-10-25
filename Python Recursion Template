@@ -1,0 +1,9 @@
+//Python Recursion Template
+//For Recursive Sequences In Form: a(n) = c1*a(n - 1) + c2, a(1) = i
+
+def recur(i, c1, c2, n):
+    if n == 1:
+       return i
+    else:
+       nTerm = c1 * recur(i, c1, c2, n - 1) + c2
+       return nTerm
