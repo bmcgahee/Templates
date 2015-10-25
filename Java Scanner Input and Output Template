@@ -1,0 +1,10 @@
+//Java Scanner Input/Output Template
+
+//Import Java scanner.
+import java.util.Scanner;
+
+//Declare scanner, ask user for input, read input, and print result.
+Scanner userInput = new Scanner(System.in);
+System.out.println("Enter input here: ");
+String input = userInput.next();
+System.out.println(input);
