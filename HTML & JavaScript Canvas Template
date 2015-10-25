@@ -1,0 +1,12 @@
+//HTML and JavaScript Canvas Template for Graphics or Video Games
+<html>
+<canvas id = "CanvasID" width = "CanvasWidth" height = "CanvasHeight"></canvas>
+<script>
+window.onload = function() {
+      canvas = document.getElementById('CanvasID');
+      canvasContext = canvas.getContext('2d');
+      canvasContext.fillStyle = 'color';
+      canvasContext.fillRect(leftXValue, topYValue, width, height);
+}
+</script>
+</html>
