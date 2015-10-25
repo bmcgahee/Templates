@@ -1,0 +1,57 @@
+index.html:
+
+<html>
+
+<head>
+   <title>TITLE</title>
+   <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+
+<figure>
+    <img src = "image1filename.jpg" alt = "Enter text here">
+    <figcaption>Enter caption here.</figcaption>
+</figure>
+
+<figure>
+    <img src = "image2filename.jpg" alt = "Enter text here">
+    <figcaption>Enter caption here.</figcaption>
+</figure>
+
+<figure>
+    <img src = "image3filename.jpg" alt = "Enter text here">
+    <figcaption>Enter caption here.</figcaption>
+</figure>
+
+</body>
+
+</html>
+
+style.css:
+
+body {
+  width: percent%
+  max-width: pixelspx;
+  margin: 0 auto;
+  background-color: #abcdef;
+  color: color;
+  font-size: pixelspx;
+}
+
+figure {
+    background-color: #abcdef;
+    padding: pixelspx;
+    border: pixelspx solid #abcdef;
+    width: pixelspx;
+    height: pixelspx;
+    color: #abcdef;
+    float: left;
+}
+
+figure img {
+    width: pixelspx;
+}
+
+
+
