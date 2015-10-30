@@ -1,0 +1,10 @@
+//create a new view
+CREATE VIEW ViewName
+AS
+SELECT *
+FROM TableName
+WHERE (insert Boolean expression here)
+
+//access the view
+SELECT *
+FROM ViewName
