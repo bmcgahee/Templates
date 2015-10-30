@@ -1,0 +1,15 @@
+#Create file, write to file, and close file template
+
+#Enter filename, open file, and enter how many lines you want to write to the file
+filename = raw_input("Enter file name: ")
+file = open(filename, "w")
+numberOfLines = int(raw_input("How many lines do you want in the file? "))
+
+#For Loop lets you enter text to written for each line in the file
+for i in range(1, numberOfLines + 1):
+    line = raw_input("Enter text for this line: ")
+    file.write(line)
+    file.write("\n")
+
+#Closes the file
+file.close()
