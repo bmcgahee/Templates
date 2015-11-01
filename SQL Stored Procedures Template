@@ -1,0 +1,53 @@
+//Create Stored Procedure
+CREATE PROCEDURE ProcedureName1
+AS
+SET NOCOUNT ON
+SELECT *
+FROM TableName1
+
+CREATE PROCEDURE ProcedureName2
+AS
+SET NOCOUNT OFF
+SELECT *
+FROM TableName2
+
+
+//Execute Stored Procedure
+EXEC ProcedureName1
+EXEC ProcedureName2
+
+//Drop Stored Procedure
+DROP PROC ProcedureName1
+DROP PROC ProcedureName2
+
+
+//Create Parameterized Stored Procedure
+CREATE PROCEDURE ParameterizedProcedureName
+@Parameter_Name VARCHAR(50)
+SET NOCOUNT ON
+SELECT *
+FROM Table_Name
+WHERE Name = @Parameter_Name
+
+//Output Parameters
+CREATE PROC OutputName
+@ParName varchar(50) OUTPUT
+AS
+SET @ParName = (SELECT TOP(1) ColumnName FROM TableName)
+
+DECLARE @result VARCHAR(50)
+EXEC OutputName @result output
+select @result
+
+//Return Values From Stored Procedures
+CREATE PROC ProcedureName
+AS
+RETURN number
+
+DECLARE @returnvalue INT
+EXEC @returnvalue = ProcedureName
+SELECT @returnvalue
+
+
+//Execute Parameterized Stored Procedure
+EXEC ParameterizedProcedureName @Parameter_Name = 'name'
